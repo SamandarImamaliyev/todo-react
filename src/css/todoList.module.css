@@ -1,0 +1,34 @@
+.heading {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+
+.todo {
+    height: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+.todos {
+    width: 75%;
+}
+
+.todo::-webkit-scrollbar {
+    width: 4px;
+}
+
+.todo::-webkit-scrollbar-thumb {
+    background: #a6192e;
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    .todos {
+        width: 100%;
+    }
+
+}
