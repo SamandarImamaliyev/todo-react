@@ -1,5 +1,8 @@
 # React + Vite
 
+1. In this project i havent used any state management library, instead i have done prop drilling
+2. In this project i have used reactstrap
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
